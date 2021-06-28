@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEST Vue</title>  
+</head>
+
+<body>
+  <div id="app">
+    <div>
+      <p>{{value1}}</p>
+      <input type="text" v-model="value1" />
+    </div>
+    <div>
+      <p>{{ counter }}</p>
+      <button v-on:click="handleAdd"> Add </button>
+      <button v-on:click="handleMinus"> Minus </button>
+    </div>
+  </div>
+</body>
+
+</html>
+<script type="module">
+  import Vue from './src/index.js'
+  const ins = new Vue({
+    el: '#app',
+    data() {
+      return {
+        msg: 'hello world',
+        value1: 'sb',
+        counter: 0
+      }
+    },
+    methods: {
+      handleAdd() {
+        this.counter++
+      },
+      handleMinus() {
+        this.counter--
+      }
+    },
+  })
+
+
+</script>
