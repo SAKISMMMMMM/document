@@ -4,7 +4,7 @@
 
 | 目录 |
 | --- |
-| [一 目录](#chapter-one) |
+| [目录](#chapter-one) |
 | <a name="catalog-chapter-two" id="catalog-chapter-two"></a>[原理or源码](#chapter-two) 
 
 ## <a name="chapter-two" id="chapter-two"></a> 原理or源码
