@@ -140,8 +140,6 @@ timer3s
 
 作为常见面试题，个人感觉 Event Loop 还是必须要掌握的，其涉及的知识点非常多，特别是Promise的执行逻辑，而理解Promise的最好方法莫过于直接学习A+ 规范的Promise的实现方式。相信从原理上理解Promise后一些相关问题理解起来会更得心应手。
 
-
-
 ## 参考文献
 
 * [x] [JavaScript 运行机制详解：再谈Event Loop(阮一峰)](https://www.ruanyifeng.com/blog/2014/10/event-loop.html)
