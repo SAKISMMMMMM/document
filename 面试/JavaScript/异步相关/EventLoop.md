@@ -21,7 +21,7 @@
 |  setImmediate |   | [x] |
 |  requestAnimationFrame | [x]  | [x] |
 
-- requestAnimationFrame在MDN的定义为下次页面重绘前所执行的操作，且该操作晚于微任务执行。
+- requestAnimationFrame在MDN的定义为下次页面重绘前所执行的操作，且该操作晚于微任务执行。个人当做宏任务处理
 
 |  微任务 | 浏览器  | Node |
 | ------------ | ------------ | ------------ |
