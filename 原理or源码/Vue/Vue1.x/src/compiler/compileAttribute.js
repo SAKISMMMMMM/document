@@ -1,3 +1,5 @@
+import Watcher from '../watcher.js'
+
 /**
  * 编译属性节点
  * @param {*} node 节点
